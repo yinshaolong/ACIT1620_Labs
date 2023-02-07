@@ -1,7 +1,10 @@
 h1 {
     color:blue
 }
-body {
+.index{
+    font-family: 'Montserrat', sans-serif;font-size: 4em; font-weight: normal;
+}
+.body_obj {
     background-color:bisque
 }
 nav{

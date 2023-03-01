@@ -1,13 +1,47 @@
-h1 {
-    color:blue
+
+
+p+div {
+    background: red;
 }
-#index{
-    font-family: 'Montserrat', sans-serif;font-size: 4em; font-weight: normal;
+h1{
+    font-family: 'montserrat', sans-serif;
+    font-weight: normal;
 }
-.body_obj {
-    background-color:bisque
+.headerfoot{
+    background-color: lightblue;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
 }
 nav{
-    background-color: red;
-    text-align: center;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.container a{
+    margin: 5px;
+}
+body{
+    background-color: bisque;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+/* mouse over link */
+a:hover {
+    color: peru;
+}
+
+a:active {
+    color: darkmagenta;
 }

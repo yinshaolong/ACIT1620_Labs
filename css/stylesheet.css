@@ -20,6 +20,7 @@ nav{
     display: flex;
     flex-direction: column; 
     align-items: center; 
+    gap: 5px;
 }
 li {
     list-style: none;
@@ -50,14 +51,13 @@ a:hover {
 a:active {
     color: darkmagenta;
 }
+
 @media (min-width: 600px) 
 {
     nav{
         flex-direction: row;
-        /* align-items:center; */
     }
-    .ul_list > li {
-        display: grid;
+    .ul_list > li {   
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr 1fr;
     } 

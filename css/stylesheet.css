@@ -24,6 +24,8 @@ nav{
 }
 li {
     list-style: none;
+    border-bottom: 1px #B0B0B0 solid;
+    margin-bottom: 10px;
 }
 .container a{
     margin: 5px;
@@ -57,12 +59,15 @@ a:active {
     nav{
         flex-direction: row;
     }
-    .ul_list > li {   
+    .ul_list > li {
+        display: grid;   
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr 1fr;
+        border-bottom: 1px black solid;
     } 
     .ul_list > li p:last-child {
         grid-row: 1;
         grid-column: 2;
     }
+    
 }

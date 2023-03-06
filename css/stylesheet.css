@@ -56,4 +56,13 @@ a:active {
         flex-direction: row;
         /* align-items:center; */
     }
+    .ul_list > li {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+    } 
+    .ul_list > li p:last-child {
+        grid-row: 1;
+        grid-column: 2;
+    }
 }
